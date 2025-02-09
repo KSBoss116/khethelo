@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - COSSO</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <script src="shop_exm.js"></script>
+    <script defer src="Untitled-1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">realsnapper</div>
+        <nav>
+            <ul>
+                <li><a href="Untitled-1.html">Home</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="Contact.html">contact us</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="Account_settings.html"><i class="fa fa-user"></i> </a>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Shop</h1>
+        <p>Find your perfect style</p>
+        <!-- Search Bar -->
+        <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <input type="text" placeholder="Search for products..." style="width: 300px; padding: 10px; border: none; border-radius: 5px 0 0 5px; font-size: 16px;" />
+            <button style="padding: 10px 20px; border: none; background-color: #87CEEB; color: white; border-radius: 0 5px 5px 0; cursor: pointer; font-size: 16px;">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </section>
+       <!-- Category Navigation -->
+       <div class="categories">
+        <button class="active" onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('women')">Women</button>
+        <button onclick="filterSelection('accessories')">Accessories</button>
+        <button onclick="filterSelection('gadgets')">Gadgets</button>
+        <button onclick="filterSelection('editorials')">Editorials</button>
+    </div>
+
+    <!-- Rest of your content goes here -->
+
+</body>
+</html>
